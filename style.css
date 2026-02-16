@@ -44,7 +44,7 @@ body {
 } 
 
 #highlight {
-    color: hsl(39, 100%, 71%);
+    color: var(--clr-Yellow-DARK);
 }
 
 #italic {
@@ -67,7 +67,7 @@ h1 {
     text-align: center;
     align-items: center;
     border-radius: 10px;
-    background-color: hsl(256, 67%, 59%);
+    background-color: var(--clr-Purple-DARK );
     padding-left: 30px;
     padding-right: 30px;
 }
@@ -98,7 +98,7 @@ h1 {
 .div6 {
 
     border-radius: 10px;
-    background-color: hsl(39, 100%, 71%);
+    background-color: var(--clr-Yellow-DARK);
     justify-content: center;
     align-items: flex-start;
     flex-direction: column;
@@ -117,7 +117,7 @@ h1 {
 .div3 {
 
     border-radius: 10px;
-    background-color: hsl(254, 88%, 90%);
+    background-color: var(--clr-Purple-LIGHT);
     display: flex;
     align-items: center;
     text-align: center;
@@ -140,7 +140,7 @@ h1 {
 .div8 {
 
     border-radius: 10px;
-    background-color: hsl(256, 67%, 59%);
+    background-color: var(--clr-Purple-DARK );
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -177,7 +177,7 @@ h1 {
 
 .div2 {
     border-radius: 10px;
-    background-color: hsl(31, 66%, 93%);
+    background-color: var(--clr-Yellow-LIGHT);
     color: black;
     display: flex;
     align-items: center;
@@ -194,13 +194,13 @@ h1 {
 #special-word {
 
     font-style: italic;
-    color: hsl(256, 67%, 59%);
+    color: var(--clr-Purple-DARK );
 
 }
 
 .div4 {
     border-radius: 10px;
-    background-color: hsl(39, 100%, 71%);
+    background-color: var(--clr-Yellow-DARK);
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -219,6 +219,8 @@ h1 {
 
 /* last this is footer */
 footer {
+
+    font-family: DMSans-Regular;
     font-size: 11px;
     text-align: center;
     background-color: rgba(119, 114, 124, 0.541);
@@ -231,7 +233,7 @@ footer {
 }
 
 footer a {
-    color: hsl(256, 67%, 59%);
+    color: var(--clr-Purple-DARK );
 }
 
 /* desktop display display */
@@ -271,7 +273,7 @@ body {
 /* special words modification */
 
 #highlight {
-    color: hsl(39, 100%, 71%);
+    color: var(--clr-Yellow-DARK);
 }
 
 #italic {
@@ -293,7 +295,7 @@ h1 {
     grid-column-start: 2;
     grid-row-start: 1;
     border-radius: 10px;
-    background-color: hsl(256, 67%, 59%);
+    background-color: var(--clr-Purple-DARK );
     color: white;
     display: flex;
     flex-direction: column;
@@ -310,7 +312,7 @@ h1 {
     grid-column-start: 1;
     grid-row-start: 1;
     border-radius: 10px;
-    background-color: hsl(31, 66%, 93%);
+    background-color: var(--clr-Yellow-LIGHT);
     color: black;
     display: flex;
     align-items: center;
@@ -328,7 +330,7 @@ h1 {
 #special-word {
 
     font-style: italic;
-    color: hsl(256, 67%, 59%);
+    color: var(--clr-Purple-DARK );
 
 }
 
@@ -336,7 +338,7 @@ h1 {
     grid-row: span 4 / span 4;
     grid-column-start: 4;
     border-radius: 10px;
-    background-color: hsl(254, 88%, 90%);
+    background-color: var(--clr-Purple-LIGHT);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -360,7 +362,7 @@ h1 {
     grid-column-start: 1;
     grid-row-start: 4;
     border-radius: 10px;
-    background-color: hsl(39, 100%, 71%);
+    background-color: var(--clr-Yellow-DARK);
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -405,7 +407,7 @@ h3 {
     grid-column-start: 3;
     grid-row-start: 3;
     border-radius: 10px;
-    background-color: hsl(39, 100%, 71%);
+    background-color: var(--clr-Yellow-DARK);
     justify-content: center;
     align-items: flex-start;
     flex-direction: column;
@@ -444,7 +446,7 @@ h3 {
     grid-column-start: 3;
     grid-row-start: 5;
     border-radius: 10px;
-    background-color: hsl(256, 67%, 59%);
+    background-color: var(--clr-Purple-DARK );
     display: flex;
     justify-content: flex-start;
     align-items: center;
