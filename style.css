@@ -4,6 +4,15 @@
     font-family: DMSans-Regular;
     src: url(assets/fonts/static/DMSans-Regular.ttf);
 }
+
+:root{
+
+    --clr-Yellow-DARK : hsl(39, 100%, 71%);
+    --clr-Yellow-LIGHT : hsl(31, 66%, 93%);
+    --clr-Purple-DARK : hsl(256, 67%, 59%);
+    --clr-Purple-LIGHT: hsl(254, 88%, 90%);
+}
+
 body {
 
     background-color: lightgrey;
