@@ -242,4 +242,4 @@ This project was built as part of the Frontend Mentor coding challenges platform
 ## Author
 
 Taha Belghiti — Junior Front-End Developer  
-Built with HTML, CSS, and JavaScript · © 2026
+Built with HTML, CSS· © 2026
